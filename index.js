@@ -14,7 +14,6 @@ function formSubmission(){
     }
     else{
         showPopupWindow(textMessage, inputValue);
-        document.getElementById("num_in").value = null;
     }
 }
 
