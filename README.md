@@ -40,5 +40,5 @@ Mobile S-M-L design
 
 ### Links
 
-- Solution URL: [https://github.com/johnsavvidis/Flarmio-project]
-- Live Site URL: [https://johnsavvidis.github.io/Flarmio-project/]
+- Solution URL: [https://github.com/johnsavvidis/Solo-project-for-Voyage]
+- Live Site URL: [https://johnsavvidis.github.io/Solo-project-for-Voyage/]
