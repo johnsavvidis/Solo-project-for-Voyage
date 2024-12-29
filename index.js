@@ -8,7 +8,7 @@ function formSubmission(){
         document.getElementById("num_in").innerHTML = "";
     }
     else if(inputValue === "13"){
-        textMessage = `<img class="badLuck" src="./assets/bad-luck.png">` + " Friday the 13th! Not a lucky number, at all!";
+        textMessage = `<img class="badLuck" src="./assets/bad-luck.png" alt="Friday the 13th">` + " Friday the 13th! Not a lucky number, at all!";
         showPopupWindow(textMessage, inputValue);
         document.getElementById("num_in").value = null;
     }
@@ -25,7 +25,7 @@ function showPopupWindow(message, value) {
     else{
         document.getElementById("content").innerHTML = 
         `<div class="endMessage">
-            <img class="thumbsUp" src="./assets/thumbs-up.png">
+            <img class="thumbsUp" src="./assets/thumbs-up.png" alt="thumbs up">
             <h2>You've successfully submitted number ${value}, thank you!</h2>
             <button type="button" class="goBackBtn" onClick="returnToForm()">Go back!</button>
         </div>`;
