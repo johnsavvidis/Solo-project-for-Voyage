@@ -10,11 +10,11 @@ function formSubmission(){
     else if(inputValue === "13"){
         textMessage = `<img class="badLuck" src="/assets/bad-luck.png">` + " Friday the 13th! Not a lucky number, at all!";
         showPopupWindow(textMessage, inputValue);
-        document.getElementById("num_in").value = "";
+        document.getElementById("num_in").value = null;
     }
     else{
         showPopupWindow(textMessage, inputValue);
-        document.getElementById("num_in").value = "";
+        document.getElementById("num_in").value = null;
     }
 }
 
