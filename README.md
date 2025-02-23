@@ -13,7 +13,7 @@ This is a solo project for Voyage 53 of Chingu.
 
 Users should be able to:
 
-- Test the input of a simple submit type form. If the input given by the user is not 13, it's accepted, otherwise it's not. The users get notified with a message from a pop-up window if it's not accepted. Otherwise, they get transferred to a screen notifying them of their successful submission, giving them the choice to go back and try a different number. 
+- Test the input of a simple submit type form. If the input given by the user is not 13, it's accepted, otherwise it's not. The users get notified with a message from a pop-up window if it's not accepted. Otherwise, they get notified with a message from a pop-up window about their successful submission, giving them the choice to try a different number. 
 - Experience this app in both mobile and desktop design.
 
 ### Screenshots
@@ -36,6 +36,7 @@ Mobile S-M-L design
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- React JS
 - Mobile-first workflow
 
 ### Links
